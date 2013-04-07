@@ -9,14 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>rss-collector</artifactId>
+    <artifactId>rss-storage</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <version>${project.version}</version>
-            <artifactId>aggregate-commons</artifactId>
-        </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <version>${project.version}</version>
@@ -24,14 +19,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.google.code.horrorss</groupId>
-            <artifactId>horrorss</artifactId>
-            <version>2.2.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.horrorss</groupId>
-            <artifactId>sparta</artifactId>
-            <version>2.2.0</version>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>2.11.0-RC1</version>
         </dependency>
 
         <dependency>
